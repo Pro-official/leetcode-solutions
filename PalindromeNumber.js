@@ -7,3 +7,4 @@ function isPalindrome(x) {
 console.log(isPalindrome(121)); // true
 console.log(isPalindrome(16461)); // true
 console.log(isPalindrome(-121)); // false
+console.log(isPalindrome(56665)); // false
