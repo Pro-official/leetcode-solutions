@@ -17,16 +17,34 @@
 // C can be placed before D (500) and M (1000) to make 400 and 900.
 // Given a roman numeral, convert it to an integer.
 
-const romanToNum = (number) => {
-  const I = 1;
-  const V = 5;
-  const X = 10;
-  const L = 50;
-  const C = 100;
-  const D = 500;
-  const M = 1000;
+function romanToInt(symbol) {
+  const romanValues = {
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
 
-  if (number == X) return X;
-};
+  let result = 0;
 
-console.log(romanToNum("X"));
+  for (let i = 0; i < symbol.length; i++) {
+    const currentVal = romanValues[symbol[i]];
+    const nextVal = romanValues[symbol[i + 1]];
+
+    if (nextVal > currentVal) {
+      result += nextVal - currentVal;
+      i++; // Skip the next character as it has already been considered
+    } else {
+      result += currentVal;
+    }
+  }
+
+  return result;
+}
+
+const romanNumeral = "XXVII";
+const integerValue = romanToInt(romanNumeral);
+console.log(integerValue);
