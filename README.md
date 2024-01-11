@@ -1,13 +1,17 @@
-# leetcode-solutions
+# 1. leetcode-solutions
 
-### Two Sum
+### 2. Two Sum
 
-### Palindrome Number
+### 3. Palindrome Number
 
-### Add Two Numbers
+### 4. Add Two Numbers
 
-### Roman to Number
+### 5. Roman to Number
 
-### Longest Common Prefix
+### 6. Longest Common Prefix
 
-### Valid Parentheses
+### 7. Valid Parentheses
+
+### 8. Remove Duplicates From Sorted Array
+
+### 9. Longest Substring Without Repeating Characters
