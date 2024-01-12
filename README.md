@@ -15,3 +15,5 @@
 ### 8. Remove Duplicates From Sorted Array
 
 ### 9. Longest Substring Without Repeating Characters
+
+### 10. Median of Two Sorted Arrays
