@@ -17,3 +17,5 @@
 ### 9. Longest Substring Without Repeating Characters
 
 ### 10. Median of Two Sorted Arrays
+
+### 11. Remove Element
